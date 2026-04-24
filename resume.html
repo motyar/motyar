@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motyar — Senior Engineer & AI Systems Architect</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black: #0a0a0a;
+      --gray-dark: #1a1a1a;
+      --gray-mid: #555;
+      --gray-light: #888;
+      --gray-rule: #e0e0e0;
+      --accent: #1a1a1a;
+      --page-width: 760px;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: var(--black);
+      background: #f5f5f5;
+    }
+
+    /* ── print button ───────────────────────────────────── */
+    #print-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--gray-rule);
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    #print-bar span {
+      font-size: 12px;
+      color: var(--gray-light);
+    }
+
+    #print-btn {
+      background: var(--black);
+      color: #fff;
+      border: none;
+      padding: 7px 18px;
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    #print-btn:hover { background: #333; }
+
+    /* ── page shell ─────────────────────────────────────── */
+    .page {
+      max-width: var(--page-width);
+      margin: 28px auto;
+      background: #fff;
+      padding: 48px 56px;
+      box-shadow: 0 2px 16px rgba(0,0,0,.08);
+    }
+
+    /* ── header ─────────────────────────────────────────── */
+    .header { margin-bottom: 28px; }
+
+    .header h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--black);
+      margin-bottom: 4px;
+    }
+
+    .header .title {
+      font-size: 13.5px;
+      color: var(--gray-mid);
+      margin-bottom: 10px;
+      font-weight: 400;
+    }
+
+    .header .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      font-size: 12px;
+      color: var(--gray-light);
+    }
+
+    .header .meta a {
+      color: var(--gray-light);
+      text-decoration: none;
+    }
+
+    .header .meta a:hover { color: var(--black); }
+
+    /* ── section ─────────────────────────────────────────── */
+    section { margin-bottom: 26px; }
+
+    section h2 {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: var(--gray-light);
+      border-bottom: 1px solid var(--gray-rule);
+      padding-bottom: 5px;
+      margin-bottom: 14px;
+    }
+
+    /* ── summary ─────────────────────────────────────────── */
+    .summary p {
+      font-size: 13.5px;
+      color: var(--gray-dark);
+      line-height: 1.75;
+    }
+
+    /* ── skills grid ─────────────────────────────────────── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 6px 12px;
+      font-size: 12.5px;
+    }
+
+    .skills-grid .label {
+      color: var(--gray-light);
+      font-weight: 600;
+      padding-top: 1px;
+    }
+
+    .skills-grid .value { color: var(--gray-dark); }
+
+    /* ── experience / project blocks ─────────────────────── */
+    .block { margin-bottom: 18px; }
+    .block:last-child { margin-bottom: 0; }
+
+    .block-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+
+    .block-header .role {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--black);
+    }
+
+    .block-header .period {
+      font-size: 11.5px;
+      color: var(--gray-light);
+      white-space: nowrap;
+      margin-left: 12px;
+    }
+
+    .block .company {
+      font-size: 12.5px;
+      color: var(--gray-mid);
+      margin-bottom: 5px;
+    }
+
+    .block ul {
+      padding-left: 16px;
+      color: var(--gray-dark);
+      font-size: 12.5px;
+    }
+
+    .block ul li { margin-bottom: 2px; }
+
+    /* ── stack tags ──────────────────────────────────────── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .tag {
+      font-size: 10.5px;
+      background: #f2f2f2;
+      color: var(--gray-mid);
+      padding: 1px 7px;
+      border-radius: 2px;
+      font-weight: 500;
+    }
+
+    /* ── two-column open source ──────────────────────────── */
+    .oss-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 24px;
+      font-size: 12.5px;
+    }
+
+    .oss-item strong { color: var(--black); }
+    .oss-item .oss-desc { color: var(--gray-mid); font-size: 12px; }
+    .oss-item .oss-stars { color: var(--gray-light); font-size: 11.5px; }
+
+    /* ── achievement strip ───────────────────────────────── */
+    .achievements {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .achievement {
+      flex: 1;
+      min-width: 140px;
+      border-left: 2px solid var(--gray-rule);
+      padding-left: 10px;
+    }
+
+    .achievement .num {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--black);
+      line-height: 1.2;
+    }
+
+    .achievement .desc {
+      font-size: 11.5px;
+      color: var(--gray-light);
+    }
+
+    /* ── print styles ────────────────────────────────────── */
+    @media print {
+      body { background: #fff; font-size: 12px; }
+      #print-bar { display: none; }
+      .page {
+        max-width: 100%;
+        margin: 0;
+        padding: 28px 36px;
+        box-shadow: none;
+      }
+      a { color: inherit; text-decoration: none; }
+      .block { page-break-inside: avoid; }
+      section { page-break-inside: avoid; }
+    }
+
+    @media (max-width: 640px) {
+      .page { padding: 28px 20px; margin: 0; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .oss-grid { grid-template-columns: 1fr; }
+      .block-header { flex-direction: column; gap: 2px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="print-bar">
+  <button id="print-btn" onclick="window.print()">⬇ Download / Print PDF</button>
+  <span>Use your browser's Save as PDF option when printing.</span>
+</div>
+
+<div class="page">
+
+  <!-- ── Header ── -->
+  <header class="header">
+    <h1>Motyar</h1>
+    <p class="title">Senior Back-End Engineer · AI Systems Architect · SaaS Founder</p>
+    <div class="meta">
+      <span>📍 Jaipur, India</span>
+      <a href="https://github.com/motyar" target="_blank">github.com/motyar</a>
+      <a href="https://x.com/motyar" target="_blank">x.com/motyar</a>
+      <a href="https://zenmic.com" target="_blank">zenmic.com</a>
+    </div>
+  </header>
+
+  <!-- ── Summary ── -->
+  <section class="summary">
+    <h2>Profile</h2>
+    <p>
+      Senior full-stack engineer and serial SaaS founder with <strong>15+ years</strong> turning
+      ambitious product ideas into production-grade revenue-generating software.
+      Built and <strong>exited a bootstrapped SaaS at 10× ARR</strong>. Currently founder of
+      <strong>ZenMic</strong> — an AI podcast generator serving 5,000+ episodes with 20% MoM
+      revenue growth. Specialist in autonomous AI agent systems, serverless automation pipelines,
+      and enterprise-grade backend APIs. My code runs in production for clients and creators across
+      five continents.
+    </p>
+  </section>
+
+  <!-- ── Achievements ── -->
+  <section>
+    <h2>Highlights</h2>
+    <div class="achievements">
+      <div class="achievement">
+        <div class="num">15+</div>
+        <div class="desc">Years shipping production software</div>
+      </div>
+      <div class="achievement">
+        <div class="num">10×</div>
+        <div class="desc">ARR multiple on SaaS exit</div>
+      </div>
+      <div class="achievement">
+        <div class="num">5,000+</div>
+        <div class="desc">AI podcast episodes generated</div>
+      </div>
+      <div class="achievement">
+        <div class="num">320+</div>
+        <div class="desc">GitHub stars across 47 repos</div>
+      </div>
+      <div class="achievement">
+        <div class="num">20%</div>
+        <div class="desc">Month-over-month MRR growth</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Core Skills ── -->
+  <section>
+    <h2>Core Skills</h2>
+    <div class="skills-grid">
+      <span class="label">Languages</span>
+      <span class="value">Go · PHP · TypeScript · JavaScript / Node.js · Python · Shell · Rust (learning)</span>
+
+      <span class="label">Frameworks</span>
+      <span class="value">NestJS · Express.js · Vanilla JS · jQuery</span>
+
+      <span class="label">Databases</span>
+      <span class="value">PostgreSQL · MySQL · MongoDB · SQLite</span>
+
+      <span class="label">AI / LLMs</span>
+      <span class="value">OpenAI GPT-4o/mini · Google Gemini · Azure Neural TTS · OpenAI Whisper · LiteLLM</span>
+
+      <span class="label">Cloud & DevOps</span>
+      <span class="value">GitHub Actions · Firebase · Azure · Docker · Cloudflare Workers · Railway</span>
+
+      <span class="label">Frontend</span>
+      <span class="value">TailwindCSS · HTML5 Canvas · WebSockets · Server-Sent Events</span>
+
+      <span class="label">Specialisms</span>
+      <span class="value">Autonomous AI agents · Serverless automation · Multi-tenant SaaS · REST APIs · SaaS product strategy</span>
+    </div>
+  </section>
+
+  <!-- ── Experience ── -->
+  <section>
+    <h2>Experience</h2>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">Founder & Lead Engineer — ZenMic</span>
+        <span class="period">Sep 2025 – Present</span>
+      </div>
+      <p class="company">zenmic.com · AI Podcast Generator · Private SaaS</p>
+      <ul>
+        <li>Built end-to-end AI pipeline: topic → script → multi-voice Neural TTS → published episode in &lt; 3 minutes.</li>
+        <li>Grew from $10 to $23 MRR with 20% month-over-month growth; 5,000+ episodes generated.</li>
+        <li>Organic SEO flywheel delivering 70+ Google clicks/week — zero paid acquisition.</li>
+        <li>Public REST API with key management, rate limiting, and multi-voice conversation engine.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">PHP</span><span class="tag">Google Gemini</span><span class="tag">Azure Neural TTS</span>
+        <span class="tag">Firebase</span><span class="tag">REST API</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">Indie Hacker & Open-Source Engineer</span>
+        <span class="period">2010 – Present</span>
+      </div>
+      <p class="company">Self-directed · 47+ public repositories · 320+ GitHub stars</p>
+      <ul>
+        <li>Built and sold a bootstrapped SaaS at over 10× ARR — fully bootstrapped, zero outside capital.</li>
+        <li>Shipped production-grade systems in Go, PHP, TypeScript, Node.js, and Python.</li>
+        <li>Open-source jQuery plugin (firefly — 158 ⭐) deployed across thousands of commercial WordPress themes.</li>
+        <li>Go REST API boilerplate (restgomysql — 55 ⭐) adopted as a starter template by hundreds of developers.</li>
+        <li>Real-time WebSocket chat server in Go (golangSocketChat — 24 ⭐).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── Selected Projects ── -->
+  <section>
+    <h2>Selected Projects</h2>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">autoCode — Autonomous AI Development System</span>
+        <span class="period">2025–2026</span>
+      </div>
+      <ul>
+        <li>Self-directing agent loop: reads mission → executes tasks → plans next step → repeats indefinitely.</li>
+        <li>Role-aware agents (CEO/strategy, Engineering, Marketing, Research) powered by Google Gemini.</li>
+        <li>Zero infrastructure — runs entirely on GitHub Actions with collective persistent memory.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">GitHub Actions</span><span class="tag">Google Gemini</span><span class="tag">Shell</span><span class="tag">Python</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">Enterprise Loyalty Management System API</span>
+        <span class="period">2025–2026</span>
+      </div>
+      <ul>
+        <li>Full-featured multi-tenant LMS backend: JWT + API key auth, RBAC (4 roles), campaigns, points engine.</li>
+        <li>Race-condition-safe redemption, full audit trail, Swagger/OpenAPI docs, rate limiting.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">NestJS</span><span class="tag">TypeScript</span><span class="tag">PostgreSQL</span>
+        <span class="tag">TypeORM</span><span class="tag">Docker</span><span class="tag">Passport</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">autoBusiness — Automated Market Research Pipeline</span>
+        <span class="period">2025–2026</span>
+      </div>
+      <ul>
+        <li>Daily scraper: HackerNews + Reddit pain-point extraction, Google Autocomplete keyword expansion.</li>
+        <li>Opportunity scoring, SQLite database, results committed to repo every day at 6 AM UTC — no VPS needed.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">JavaScript</span><span class="tag">GitHub Actions</span><span class="tag">SQLite</span><span class="tag">Serverless</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">agent0 (GitButler) — Self-Improving Telegram AI Assistant</span>
+        <span class="period">2025</span>
+      </div>
+      <ul>
+        <li>GPT-4o-mini powered assistant running on GitHub Actions with Telegram interface and Git-persisted memory.</li>
+        <li>Self-improving: creates GitHub issues/PRs to modify its own codebase autonomously.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">OpenAI GPT-4o-mini</span><span class="tag">GitHub Actions</span><span class="tag">Telegram API</span>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-header">
+        <span class="role">audio2mp4 — Audio-to-Subtitle Video Pipeline</span>
+        <span class="period">2025–2026</span>
+      </div>
+      <ul>
+        <li>Transcribes audio via local Whisper and renders TikTok/Reels-style MP4 with animated subtitles.</li>
+        <li>Zero API costs, three subtitle modes (chunk / word / karaoke), runs on GitHub Actions.</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">JavaScript</span><span class="tag">Whisper</span><span class="tag">FFmpeg</span><span class="tag">GitHub Actions</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Open Source ── -->
+  <section>
+    <h2>Open Source Portfolio</h2>
+    <div class="oss-grid">
+      <div class="oss-item">
+        <strong>firefly</strong>
+        <div class="oss-desc">jQuery firefly particle animation plugin</div>
+        <div class="oss-stars">⭐ 158 · 56 forks · used in commercial WP themes</div>
+      </div>
+      <div class="oss-item">
+        <strong>restgomysql</strong>
+        <div class="oss-desc">Production-ready REST API in Go + MySQL</div>
+        <div class="oss-stars">⭐ 55 · 19 forks</div>
+      </div>
+      <div class="oss-item">
+        <strong>mchat</strong>
+        <div class="oss-desc">Real-time chat with HTML5 Server-Sent Events</div>
+        <div class="oss-stars">⭐ 26 · 8 forks</div>
+      </div>
+      <div class="oss-item">
+        <strong>golangSocketChat</strong>
+        <div class="oss-desc">WebSocket chat server in pure Go</div>
+        <div class="oss-stars">⭐ 24</div>
+      </div>
+      <div class="oss-item">
+        <strong>notee / fullscreen</strong>
+        <div class="oss-desc">Minimal keyboard-only notes app · HTML5 fullscreen lib</div>
+        <div class="oss-stars">⭐ 10 each</div>
+      </div>
+      <div class="oss-item">
+        <strong>markshow</strong>
+        <div class="oss-desc">Markdown → Reveal.js slideshow, instant & zero install</div>
+        <div class="oss-stars">⭐ 4</div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page -->
+
+</body>
+</html>
