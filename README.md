@@ -1,12 +1,16 @@
 <div align="center">
 
 # Hi, I'm Motyar 👋
-### Back-End Developer & SaaS Founder · AI Automation Expert · Building tools that scale ideas into revenue
+### Senior Back-End Engineer · AI Systems Architect · SaaS Founder
 
 [![GitHub](https://img.shields.io/badge/GitHub-motyar-181717?style=flat&logo=github)](https://github.com/motyar)
 [![Twitter](https://img.shields.io/badge/X-@motyar-000000?style=flat&logo=x)](https://x.com/motyar)
 [![ZenMic](https://img.shields.io/badge/Product-ZenMic.com-6366f1?style=flat)](https://zenmic.com)
 ![Stars](https://img.shields.io/badge/GitHub%20Stars-320%2B-yellow?style=flat)
+
+<a href="https://motyar.github.io/motyar/resume.html">
+  <img src="https://img.shields.io/badge/📄%20Download%20Resume-000000?style=for-the-badge&logoColor=white" alt="Download Resume" />
+</a>
 
 </div>
 
@@ -14,88 +18,89 @@
 
 ## About Me
 
-Back-end developer, AI automation engineer, and SaaS founder with 15+ years of shipping products that work.  
-My first SaaS was **acquired for over 10x ARR multiple**. Currently running **ZenMic** — an AI Podcast Generator that has powered **5,000+ episodes** for creators worldwide.
+I am a **senior back-end engineer, AI systems architect, and serial SaaS founder** with **15+ years** of turning ambitious product ideas into production-grade, revenue-generating software.
 
-- 📍 Jaipur-based indie hacker | [#BuildInPublic](https://x.com/search?q=%23buildinpublic%20from%3Amotyar)
-- 🔧 15+ years shipping full-stack web products from idea to production
-- 🤖 Deep focus in 2025–2026 on autonomous AI agents and serverless automation pipelines
-- 🚀 Bootstrapped → acquired → building again
-- 💬 Follow the journey: [@motyar on X](https://x.com/motyar)
+My first SaaS was **acquired for over 10× ARR** — bootstrapped from zero, no outside capital. Today I run **ZenMic**, an AI Podcast Generator that has powered **5,000+ episodes** for creators worldwide and is growing at **20% month-over-month**.
 
-> *"I don't just write code. I solve problems that happen to require code."*
+- 📍 Jaipur, India · building in public since 2011 → [@motyar](https://x.com/motyar)
+- 🔧 Full-stack from database schema to CI/CD — one engineer who owns the whole stack
+- 🤖 **Autonomous AI agent systems** are my current deep focus — self-improving, serverless, zero ops
+- 🚀 Bootstrapped → acquired → building the next one
+- 🏆 320+ GitHub stars · 47+ repos · code running on **5 continents**
+
+> *"I don't just write code — I architect systems that keep working long after I'm done with them."*
 
 ---
 
 ## 🏗 What I'm Building Now
 
-### 🎙 [ZenMic](https://zenmic.com) — AI Podcast Generator *(Private)*
+### 🎙 [ZenMic](https://zenmic.com) — AI Podcast Generator *(Private SaaS)*
 
-> **From idea to published podcast episode in seconds. No mic, no studio, no editing.**
+> **From idea to published podcast episode in under 3 minutes. No mic, no studio, no editing.**
 
-ZenMic converts any text, topic, or blog post into a ready-to-publish audio podcast using AI — multi-voice conversations, Neural TTS, instant publishing, and a built-in SEO flywheel.
+ZenMic converts any text, topic, or blog post into a polished, ready-to-publish audio podcast using AI — multi-voice Neural TTS conversations, instant publishing, and a built-in SEO flywheel that generates organic traffic automatically.
 
 | Metric | Value |
 |--------|-------|
 | 🗓 Launched | September 2025 |
-| 📈 MRR Growth | $10 → $23 MRR · 20% month-over-month |
-| 🎧 Episodes Generated | 5,000+ and climbing |
-| 🔍 SEO Traction | 70+ Google clicks/week (organic, zero paid) |
+| 📈 MRR Growth | $10 → $23 MRR · **20% month-over-month** |
+| 🎧 Episodes Generated | **5,000+** and climbing |
+| 🔍 SEO Traction | 70+ Google clicks/week — **100% organic, zero paid** |
 | 🛠 Stack | PHP · Google Gemini · Azure Neural TTS · Firebase |
 
-- ✅ Topic-to-podcast in under 3 minutes
+- ✅ Topic-to-podcast in under 3 minutes — end-to-end AI pipeline
 - ✅ Multi-voice AI conversations (male + female Neural voices)
-- ✅ Public REST API with key management
-- ✅ Built-in SEO & marketing intelligence pipeline
-- ✅ Fully automated content marketing — runs without manual intervention
+- ✅ Public REST API with key management and rate limiting
+- ✅ Built-in SEO & content marketing intelligence pipeline
+- ✅ Fully automated content engine — runs without manual intervention
 
-🔗 [zenmic.com](https://zenmic.com) · *Private repo — happy to demo the architecture on a call*
+🔗 [zenmic.com](https://zenmic.com) · *Private repo — happy to walk through the architecture on a call*
 
 ---
 
 ## 🏆 Key Achievements
 
-**💰 SaaS Exit: 10x+ ARR Multiple**  
-Built and sold my first bootstrapped SaaS — acquired for over **10x ARR multiple**. Proof that simple tools solving real niche pains can produce outsized outcomes.
+**💰 SaaS Exit: 10× ARR Multiple**  
+Built, grew, and sold my first bootstrapped SaaS — acquired for over **10× ARR**. No investors. No co-founder. Proof that a single focused engineer can build something buyers pay a premium for.
 
-**🤖 Autonomous AI Systems Pioneer**  
-In 2025–2026 I've been systematically building and publishing open-source AI agent frameworks — from self-improving codebases to personal AI assistants to automated business research pipelines — all running on zero-infrastructure GitHub Actions.
+**🤖 Autonomous AI Systems — Shipping the Future Now**  
+In 2025–2026 I have been systematically designing and publishing open-source AI agent frameworks: self-improving codebases, personal AI assistants, and fully automated business intelligence pipelines — all running on **zero infrastructure** via GitHub Actions. This isn't theory; these systems run daily, commit results to repos, and improve themselves.
 
-**🔄 Serial Builder**  
-From jQuery plugins used on thousands of websites, to Go REST APIs forked by hundreds of developers, to a live AI SaaS — a consistent track record of shipping things people actually use.
+**🔄 Consistent Shipping Record — Over 15 Years**  
+From jQuery plugins adopted in thousands of WordPress themes, to Go REST APIs forked by hundreds of developers, to a live AI SaaS with paying customers — the pattern is consistent: **I ship things people actually use**.
 
 **📊 Open Source Impact**  
-320+ GitHub stars · 47+ repositories · Code running on 5 continents.
+320+ GitHub stars · 47+ repositories · code running on **5 continents**.
 
 ---
 
 ## 🤖 AI Agents & Automation Systems
 
-*This is where my head has been in 2025–2026. Every project below runs on zero servers — pure GitHub Actions.*
+*This is where my head has been since 2025. Every project below runs on zero servers — pure GitHub Actions — and several are running live right now, committing new results every day.*
 
 ### ⚙️ [autoCode](https://github.com/motyar/autoCode) — Autonomous AI Development System
 
 > **Your codebase improves itself. 24/7. No human required.**
 
-An autonomous agent loop powered by Google Gemini and GitHub Actions. Every scheduled run picks the next pending task from a work queue, executes it using specialized AI skills (engineering, research, marketing, analysis), saves results, and automatically queues the *next* task — creating a self-sustaining development loop. Fork it, point it at your project mission, and let it ship.
+An autonomous agent loop powered by Google Gemini and GitHub Actions. Every scheduled run picks the next pending task from a work queue, executes it using specialized AI agents (Engineering, Marketing, Research, Strategy), saves results, and automatically queues the *next* task — creating a self-sustaining development loop you can point at any project mission.
 
-- ✅ Fully self-directing: reads mission → executes → plans next step → repeats
+- ✅ Fully self-directing: reads mission → executes → plans next step → repeats indefinitely
 - ✅ Role-aware agents: CEO (strategy), Engineering, Marketing, Research
 - ✅ Collective memory that grows with every run
 - ✅ Zero infrastructure — just GitHub Actions + Gemini API
 
 ---
 
-### 🧠 [agent0](https://github.com/motyar/agent0) — GitButler, Personal AI Assistant
+### 🧠 [agent0](https://github.com/motyar/agent0) — Personal AI Assistant (GitButler)
 
-> **A self-aware AI that lives in your GitHub repo, talks on Telegram, and gets smarter over time.**
+> **A self-aware AI that lives in your GitHub repo, talks on Telegram, and gets smarter with every conversation.**
 
-GitButler is a personal AI assistant powered by GPT-4o-mini that runs entirely on GitHub Actions, communicates through Telegram, and maintains persistent memory via Git commits. It knows who you are, remembers your preferences, and can even create GitHub issues/PRs to **improve its own code**. Supports continuous mode (~10 second response time) with auto-sleep to conserve minutes.
+A personal AI assistant powered by GPT-4o-mini that runs entirely on GitHub Actions, communicates through Telegram, and maintains persistent memory via Git commits. It knows who you are, remembers your preferences, and can create GitHub issues/PRs to **improve its own code** — a genuinely self-improving system.
 
-- ✅ Persistent identity system: soul, memory, user profile, all in markdown files
-- ✅ Continuous mode: stays active up to 6 hours with ~10 second responses
-- ✅ Self-improving: creates issues and PRs to modify its own codebase
-- ✅ Extensible skills system — add new capabilities with a single markdown file
+- ✅ Persistent identity: soul, memory, and user profile all stored in version-controlled markdown
+- ✅ Continuous mode: stays active up to 6 hours with ~10-second response times
+- ✅ Self-improving: autonomously creates issues and PRs to evolve its own codebase
+- ✅ Extensible skills system — add a capability with a single markdown file
 
 ---
 
@@ -111,33 +116,33 @@ A Telegram bot that runs on GitHub Actions and can execute **real shell commands
 
 ### 📈 [autoBusiness](https://github.com/motyar/autoBusiness) — Automated Market Research Pipeline
 
-> **Daily competitive intelligence — free, automated, committed to your repo.**
+> **Daily competitive intelligence — fully automated, committed to your repo, zero ongoing cost.**
 
-Scrapes HackerNews and Reddit for pain points, performs Google Autocomplete keyword expansion (alphabet-soup method), scores keywords by opportunity, and commits timestamped JSON/CSV/Markdown results to the repo every day at 6 AM UTC. No dashboard, no VPS, no ongoing cost.
+Scrapes HackerNews and Reddit for pain points, performs Google Autocomplete keyword expansion (alphabet-soup method), opportunity-scores every keyword, and commits timestamped JSON/CSV/Markdown results to the repo every morning at 6 AM UTC. **It's been running continuously and producing fresh research every single day.** No dashboard. No VPS. No bill.
 
 - ✅ HackerNews trending topics + Reddit community pain-point scraper
-- ✅ Long-tail keyword research via Google Autocomplete (no API key needed)
-- ✅ Opportunity scoring (0–4) and SQLite keyword database
-- ✅ Configurable niche, subreddits, and seed keywords — outputs to `output/`
+- ✅ Long-tail keyword research via Google Autocomplete (no API key required)
+- ✅ Opportunity scoring (0–4) and persistent SQLite keyword database
+- ✅ Configurable niche, subreddits, and seed keywords — clean structured output to `output/`
 
 ---
 
 ### 🤖 [mona](https://github.com/motyar/mona) — GitHub-Native Telegram AI Bot
 [![Stars](https://img.shields.io/github/stars/motyar/mona?style=flat)](https://github.com/motyar/mona)
 
-A serverless Telegram bot that runs **entirely inside GitHub Actions** — no server, no Docker, no `npm install`. Uses GPT-4o-mini for natural language understanding, manages GitHub issues & PRs, and remembers conversation history. Extensible via a clean skill-registry pattern — add a new capability by adding one object to an array.
+A serverless Telegram bot that runs **entirely inside GitHub Actions** — no server, no Docker, no `npm install`. GPT-4o-mini for natural language understanding, full GitHub issue & PR management, persistent conversation memory, and a clean skill-registry pattern — add a new capability by adding one object to an array.
 
 ---
 
 ### 📊 [auto0](https://github.com/motyar/auto0) — AI LinkedIn Content Automation
 
-Fully automated LinkedIn PDF carousel generator — GPT-4o-mini generates ideas and content daily via GitHub Actions, renders professional PDFs with 5 colour themes, delivers to Telegram for one-tap posting. Zero manual effort after setup.
+Fully automated LinkedIn PDF carousel generator. GPT-4o-mini generates content ideas and copy daily via GitHub Actions, renders professional PDFs across 5 colour themes, and delivers to Telegram for one-tap posting. Setup once, runs forever.
 
 ---
 
 ### 🎬 [audio2mp4](https://github.com/motyar/audio2mp4) — Audio → Subtitle Video Pipeline
 
-Transcribes audio and generates TikTok/Reels-style MP4 with animated subtitles — runs entirely on GitHub Actions with zero API costs. Whisper (local) + FFmpeg + three subtitle modes: `chunk`, `word`, `karaoke`.
+Transcribes audio and generates TikTok/Reels-style MP4 with animated subtitles — entirely on GitHub Actions with **zero API costs**. Local Whisper + FFmpeg + three subtitle modes: `chunk`, `word`, `karaoke`.
 
 ---
 
@@ -145,16 +150,16 @@ Transcribes audio and generates TikTok/Reels-style MP4 with animated subtitles �
 
 ### 🏅 [lms-test](https://github.com/motyar/lms-test) — Production-Ready Loyalty Management System API
 
-A full-featured, enterprise-grade **Loyalty Management System** backend built with NestJS (TypeScript) and PostgreSQL — the kind of thing you'd hire a team to build.
+A full-featured, enterprise-grade **Loyalty Management System** backend built with NestJS (TypeScript) and PostgreSQL — the kind of architecture you'd spend months and a team budget to build. This is a client-engagement reference implementation.
 
-- ✅ Multi-tenant architecture with strict data isolation per client
-- ✅ JWT authentication + API key auth for third-party integrations
-- ✅ Role-based access control: SuperAdmin, ClientAdmin, ClientStaff, Customer
-- ✅ Campaigns, loyalty rules, points calculation, redemption with race-condition prevention
-- ✅ Swagger/OpenAPI docs, rate limiting, full audit trail
+- ✅ Multi-tenant architecture with strict per-client data isolation
+- ✅ Dual auth: JWT for users + API key auth for third-party integrations
+- ✅ Role-based access control: SuperAdmin · ClientAdmin · ClientStaff · Customer
+- ✅ Campaigns engine, loyalty rules, points calculation, **race-condition-safe redemption**
+- ✅ Swagger/OpenAPI docs · rate limiting · full audit trail — production-ready out of the box
 - ✅ Stack: NestJS · TypeScript · PostgreSQL · TypeORM · Passport · Docker
 
-*Demonstrates the kind of clean, scalable backend architecture I bring to client engagements.*
+*This repository demonstrates exactly the quality and architecture I bring to client engagements.*
 
 ---
 
@@ -163,7 +168,7 @@ A full-featured, enterprise-grade **Loyalty Management System** backend built wi
 ### 🔥 [firefly](https://github.com/motyar/firefly) — jQuery Firefly Animation Plugin
 [![Stars](https://img.shields.io/github/stars/motyar/firefly?style=flat)](https://github.com/motyar/firefly) [![Forks](https://img.shields.io/github/forks/motyar/firefly?style=flat)](https://github.com/motyar/firefly)
 
-Plug-and-play jQuery plugin for smooth firefly particle effects. Used by WordPress themes and websites worldwide — including a Yootheme template.
+Plug-and-play jQuery plugin for smooth firefly particle effects. Adopted by WordPress themes and websites worldwide — including a commercial Yootheme template.
 
 **158 ⭐ · 56 forks**
 
@@ -190,9 +195,9 @@ Lightweight real-time chat using HTML5 Server-Sent Events and TailwindCSS. Push-
 ### 🖥 [markshow](https://github.com/motyar/markshow) — Markdown → Slideshow
 [![Stars](https://img.shields.io/github/stars/motyar/markshow?style=flat)](https://github.com/motyar/markshow)
 
-Turn any Markdown file into a Reveal.js presentation with themes, transitions, and a live editor. No install — paste and present. Live at [motyar.github.io/markshow](https://motyar.github.io/markshow/).
+Turn any Markdown file into a Reveal.js presentation with themes, transitions, and a live editor. Zero install — paste your markdown and present. Live at [motyar.github.io/markshow](https://motyar.github.io/markshow/).
 
-**3 ⭐ · Topics: `markdown` `markdown-editor` `revealjs`**
+**4 ⭐ · Topics: `markdown` `markdown-editor` `revealjs`**
 
 ---
 
@@ -243,20 +248,24 @@ Turn any Markdown file into a Reveal.js presentation with themes, transitions, a
 
 ## 🤝 How I Can Help You
 
-- 🧱 **"We need an MVP built fast"** → I architect and ship from zero to production. No hand-holding required.
-- 🤖 **"We want AI features"** → I've shipped GPT, Gemini, Whisper, Azure TTS integrations — and I build autonomous pipelines, not just API wrappers.
-- ⚙️ **"We need an AI agent or automation pipeline"** → This is my current specialty. Autonomous loops, self-improving systems, serverless bots.
-- 🏢 **"We need an enterprise-grade backend API"** → Multi-tenant, role-based, documented, tested. See [lms-test](https://github.com/motyar/lms-test) as an example.
-- 🔌 **"We need a solid REST API"** → Built them in Go, NestJS, Node.js, and PHP at multiple scales.
-- 📈 **"We need content/marketing automation"** → Fully automated pipelines running 24/7 with zero ops overhead are my thing.
-- 🚀 **"We need someone to own a project end-to-end"** → That's exactly what I do. I deliver working software, not tickets.
-- ⚙️ **"Our codebase is a mess"** → Technical audit, refactor, cleanup. I've seen it all.
+The right engineer isn't just someone who can write code — it's someone who has *shipped* products, *sold* products, and understands that **business outcomes matter more than clever abstractions**. That's me.
+
+- 🧱 **"We need an MVP built fast"** → I architect and ship from zero to production. No hand-holding. No bloated process.
+- 🤖 **"We want AI features"** → I've shipped GPT-4o, Gemini, Whisper, and Azure Neural TTS in production — and I build **autonomous pipelines**, not just API wrappers.
+- ⚙️ **"We need an AI agent or automation pipeline"** → This is my current deep specialty. Self-improving systems, serverless bots, and zero-ops automation that runs indefinitely.
+- 🏢 **"We need an enterprise-grade backend API"** → Multi-tenant, role-based, documented, tested, production-hardened. See [lms-test](https://github.com/motyar/lms-test).
+- 🔌 **"We need a solid REST API"** → Built and maintained them in Go, NestJS, Node.js, and PHP at multiple scales.
+- 📈 **"We need content or marketing automation"** → Fully automated pipelines running 24/7 with zero ongoing ops are literally what I build for fun.
+- 🚀 **"We need someone to own a project end-to-end"** → That's the only way I work. I deliver **working software**, not tickets closed.
+- ⚙️ **"Our codebase is a mess"** → Technical audits, refactors, and architectural improvements — I've untangled it all.
 
 ---
 
 ## 📬 Let's Work Together
 
-I take on a limited number of engagements at a time to ensure every client gets real attention and real results.
+I take on a small number of engagements at a time — by design. Every client gets real attention, real communication, and **real results delivered on time**.
+
+If you're looking for a senior engineer who has built, scaled, and *sold* a product, and who brings that founder mindset to every client project, let's talk.
 
 **→ Reach out on X: [@motyar](https://x.com/motyar)**  
 **→ Or open an issue on this repo**
@@ -267,9 +276,13 @@ I respond to every serious inquiry within 24 hours.
 
 <div align="center">
 
-*Shipping since 2011 · Jaipur, India · Available for hire*
+*Shipping since 2011 · Jaipur, India · Available for select engagements*
 
 [![GitHub followers](https://img.shields.io/github/followers/motyar?style=social)](https://github.com/motyar)
 [![X Follow](https://img.shields.io/twitter/follow/motyar?style=social)](https://x.com/motyar)
+
+<a href="https://motyar.github.io/motyar/resume.html">
+  <img src="https://img.shields.io/badge/📄%20Download%20Resume-000000?style=for-the-badge&logoColor=white" alt="Download Resume" />
+</a>
 
 </div>
